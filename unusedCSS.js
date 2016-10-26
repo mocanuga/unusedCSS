@@ -1,5 +1,5 @@
-javascript: ! function() {
-    ! function(e, t, s) {
+javascript: (function () { 
+    (function(e, t, s) {
         "use strict";
         var n = function() {
             this.sheets = t.styleSheets
@@ -122,5 +122,5 @@ javascript: ! function() {
                 }
             }
         }, e.sheet = new n
-    }(window, document), console.log(sheet.usedRules())
-}();
+    }(window, document)), console.log(sheet.usedRules())
+}());
